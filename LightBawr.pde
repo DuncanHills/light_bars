@@ -6,7 +6,7 @@ class LightBawr{
     this.c = color(r,g,b);
   }
   
-  void render(){
+  void render() {
     fill(c);
     pushMatrix();
       translate(loc.x,loc.y,loc.z);
